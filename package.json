@@ -1,5 +1,5 @@
 {
-    "name": "@root/greenlock",
+    "name": "greenlock",
     "version": "4.0.5",
     "description": "The easiest Let's Encrypt client for Node.js and Browsers",
     "homepage": "https://rootprojects.org/greenlock/",
@@ -22,7 +22,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://git.rootprojects.org/root/greenlock.js.git"
+        "url": "https://github.com/AsafY/greenlock/greenlock.js.git"
     },
     "keywords": [
         "Let's Encrypt",
@@ -39,7 +39,7 @@
     "license": "MPL-2.0",
     "dependencies": {
         "@greenlock/manager": "^3.1.0",
-        "@root/acme": "git@github.com:AsafY/acme.js.git",
+        "acme": "git@github.com:AsafY/acme.js.git#1ef0366dda10824dcc1fde1e165faedcf5afdf92",
         "@root/csr": "^0.8.1",
         "@root/keypairs": "^0.9.0",
         "@root/mkdirp": "^1.0.0",
